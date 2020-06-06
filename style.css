@@ -1,0 +1,101 @@
+.card{
+
+  width: 200px !important;
+  height: auto !important;
+  margin-bottom: 20px;
+}
+
+.newArrivals{
+
+    margin-top: 50px;
+
+}
+
+.btn-primary{
+
+    
+    background-color: brown !important;
+    width: 100% !important;
+}
+
+.newArrivals2{
+
+margin-top: 60px;
+
+
+
+
+}
+
+
+
+.navbar{
+
+  background-color: brown !important;
+
+}
+
+
+
+.footer{
+
+  width: auto;
+  height: 100px;
+  background-color: brown;
+  margin-top: 3000px;
+
+}
+.footerimg{
+
+  margin-left: 50%;
+  margin-top: 50%;
+
+}
+
+
+
+.mainCard{
+
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap:wrap ;
+
+
+}
+
+
+.card1,.card2,.card3{
+
+  width: 300px;
+  height: 100px;
+  display: flex;
+  box-shadow: 2px 4px 5px grey;
+  align-items: center;
+  color: brown;
+  justify-content: center;
+}
+
+@media screen and(max-width:768px){
+
+    .card1,.card2,.card3{
+      width: 100%;
+
+
+    }
+
+
+}
+
+
+
+
+
+.fa-thumbsup,.fa-truck,.fa-headphones{
+
+
+  margin-right: 10px;
+  
+
+}
